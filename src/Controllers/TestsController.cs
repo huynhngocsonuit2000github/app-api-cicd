@@ -16,12 +16,12 @@ public class TestsController : ControllerBase
     [HttpGet]
     public IActionResult Get()
     {
-        return Ok("kaka");
+        return Ok("Hello everyone, wellcome to CI/CD");
     }
 
     [HttpGet("{id}")]
     public IActionResult Get(string id)
     {
-        return Ok("kaka " + id);
+        return Ok("Hello " + id);
     }
 }
